@@ -21,6 +21,11 @@ public class App {
         dl1.merge(dl2);
         dl1.print(true);
 
-        // and so on...
+        System.out.println(dl1.size());
+        System.out.println(dl1.palindrome());
+        dl1.shift(2);
+        dl1.print(true);
+
+        // e così via...
     }
 }
